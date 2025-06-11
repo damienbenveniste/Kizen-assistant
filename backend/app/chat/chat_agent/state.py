@@ -6,6 +6,7 @@ class RetrieveDocument(BaseModel):
     text: str
     url: str
 
+
 class EvaluationResult(BaseModel):
     """
     Combined hallucination + validity evaluation of a generated answer.

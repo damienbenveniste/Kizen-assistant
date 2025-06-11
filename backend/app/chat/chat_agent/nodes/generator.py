@@ -43,7 +43,6 @@ Return **only** the assistant's textual reply—no extra JSON or metadata.
 """
 
 
-
 class GeneratedAnswer(BaseModel):
     """
     Output schema for the generator node.

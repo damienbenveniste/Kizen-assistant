@@ -40,6 +40,7 @@ class ApologyReply(BaseModel):
         None,
         description="Optional next-step guidance for the user (rephrase, add details, etc.)."
     )
+    
 
 class FallBack:
     """

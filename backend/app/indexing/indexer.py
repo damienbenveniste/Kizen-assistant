@@ -7,7 +7,6 @@ import asyncio
 import os
 
 
-
 SYSTEM_PROMPT = """
 You are an expert summarizer.
 Summarize the web page provided by the user in **no more than two concise, descriptive sentences**.
@@ -20,11 +19,11 @@ class Summary(BaseModel):
         description="A concise description of the page (≤ 2 sentences)."
     )
 
+
 class Data(BaseModel):
     text: str
     url: str
     summary: Optional[str] = None
-
 
 
 class Indexer:

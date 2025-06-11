@@ -41,7 +41,6 @@ Guidelines
 """
 
 
-
 class DocFilterResult(BaseModel):
     """
     Result of the second-stage filtering step for a single document.

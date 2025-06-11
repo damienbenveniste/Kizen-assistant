@@ -11,7 +11,6 @@ async def lifespan(app: FastAPI):
     # Startup
     await create_tables()
     yield
-    # Shutdown (if needed)
 
 
 app = FastAPI(

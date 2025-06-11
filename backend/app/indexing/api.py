@@ -1,10 +1,3 @@
-"""
-Indexing API module for managing knowledge base content.
-
-This module provides endpoints for adding new documents to the vector database
-through automated parsing, summarization, and embedding generation.
-"""
-
 from fastapi import APIRouter, Request, HTTPException
 from app.indexing.indexer import Indexer
 from app.indexing.schemas import IndexingRequest
